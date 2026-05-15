@@ -62,25 +62,28 @@
                 </div>
                 <!--auto complete = off, não sugere campos-->
                 <form id="formObjeto" autocomplete="off">
-                <label>Nome do Objeto</label>
-                <input type="text" name="objeto" maxlength="80" placeholder="Ex.: Mochila, chave, carteira required /">
-                <!--vou criar uma div para dividir em colunas-->
-                <div class="coluna-dois">
-                    <label> tipo</label>
-                    <!--campo de seleção-->
-                    <select name="tipo" required>
-                        <option value="">Selecione</option>
-                        <option value="perdido">Perdido</option>
-                        <option value="encontrado">Encontrado</option>
-                    </select>
-                    <label>Data</label>
-                    <input type="date" name="data" required>
-                </div>
-                <label>Local</label>
-                <input type="text" name="local" maxlength="100"placeholder="EX.: Laboratorio 2, Biblioteca, patio" required />
-                <label>Descrição</label>
-                <!--<textarea> permite o texto longo e linhas-->
-                    <textarea name="descriao" maxlength="360" placeholder="Descreva cor, marca detalher..." required></textarea>
+                    <label>Nome do Objeto</label>
+                    <input type="text" name="objeto" maxlength="80"
+                        placeholder="Ex.: Mochila, chave, carteira required /">
+                    <!--vou criar uma div para dividir em colunas-->
+                    <div class="coluna-dois">
+                        <label> tipo</label>
+                        <!--campo de seleção-->
+                        <select name="tipo" required>
+                            <option value="">Selecione</option>
+                            <option value="perdido">Perdido</option>
+                            <option value="encontrado">Encontrado</option>
+                        </select>
+                        <label>Data</label>
+                        <input type="date" name="data" required>
+                    </div>
+                    <label>Local</label>
+                    <input type="text" name="local" maxlength="100" placeholder="EX.: Laboratorio 2, Biblioteca, patio"
+                        required />
+                    <label>Descrição</label>
+                    <!--<textarea> permite o texto longo e linhas-->
+                    <textarea name="descriao" maxlength="360" placeholder="Descreva cor, marca detalher..."
+                        required></textarea>
                     <label>Contato</label>
                     <input type="text" name="contato" maxlength="100" placeholder="E-mail, Whatsapp..." required />
                     <button type="submit" class="btn btn-form">Salvar</button>
@@ -88,7 +91,9 @@
             </article>
         </section>
     </main>
+    <footer>Desenvolvido por: Matheus AP na Disciplina de Desenvolvimento Web.
 
+    </footer>
 </body>
 
 </html>
